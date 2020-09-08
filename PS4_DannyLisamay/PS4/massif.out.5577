@@ -1,0 +1,753 @@
+desc: (none)
+cmd: ./ED
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=4862292
+mem_heap_B=479490
+mem_heap_extra_B=286
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=9287102
+mem_heap_B=1546754
+mem_heap_extra_B=806
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1546754 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1449984 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 1449984 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 1449984 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 1449984 0x109E22: main (ED.cpp:100)
+ n1: 72704 0x50CE374: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 24066 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=12690964
+mem_heap_B=2369026
+mem_heap_extra_B=1206
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2369026 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2269184 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 2269184 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 2269184 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 2269184 0x109E22: main (ED.cpp:100)
+ n1: 72704 0x50CE374: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 27138 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=17177275
+mem_heap_B=3450370
+mem_heap_extra_B=1734
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=20443078
+mem_heap_B=4236802
+mem_heap_extra_B=2118
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4236802 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4136960 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 4136960 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 4136960 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 4136960 0x109E22: main (ED.cpp:100)
+ n1: 72704 0x50CE374: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 27138 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=23442398
+mem_heap_B=4963842
+mem_heap_extra_B=2470
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4963842 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4857856 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 4857856 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 4857856 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 4857856 0x109E22: main (ED.cpp:100)
+ n1: 72704 0x50CE374: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 33282 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=27250398
+mem_heap_B=5881346
+mem_heap_extra_B=2918
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5881346 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5775360 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 5775360 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 5775360 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 5775360 0x109E22: main (ED.cpp:100)
+ n1: 72704 0x50CE374: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 33282 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=31778964
+mem_heap_B=6966786
+mem_heap_extra_B=3454
+mem_stacks_B=0
+heap_tree=detailed
+n3: 6966786 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6860800 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 6860800 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 6860800 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 6860800 0x109E22: main (ED.cpp:100)
+ n1: 72704 0x50CE374: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 33282 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=34458398
+mem_heap_B=7618050
+mem_heap_extra_B=3766
+mem_stacks_B=0
+heap_tree=detailed
+n2: 7618050 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7512064 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 7512064 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 7512064 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 7512064 0x109E22: main (ED.cpp:100)
+ n0: 105986 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=37558964
+mem_heap_B=8359426
+mem_heap_extra_B=4134
+mem_stacks_B=0
+heap_tree=detailed
+n2: 8359426 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8253440 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 8253440 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 8253440 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 8253440 0x109E22: main (ED.cpp:100)
+ n0: 105986 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=40660919
+mem_heap_B=9121282
+mem_heap_extra_B=4494
+mem_stacks_B=0
+heap_tree=detailed
+n2: 9121282 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9003008 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 9003008 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 9003008 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 9003008 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=43924967
+mem_heap_B=9907714
+mem_heap_extra_B=4878
+mem_stacks_B=0
+heap_tree=detailed
+n2: 9907714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9789440 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 9789440 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 9789440 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 9789440 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=47597021
+mem_heap_B=10792450
+mem_heap_extra_B=5310
+mem_stacks_B=0
+heap_tree=detailed
+n2: 10792450 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 10674176 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 10674176 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 10674176 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 10674176 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=51473078
+mem_heap_B=11726338
+mem_heap_extra_B=5766
+mem_stacks_B=0
+heap_tree=detailed
+n2: 11726338 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 11608064 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 11608064 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 11608064 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 11608064 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=55757141
+mem_heap_B=12758530
+mem_heap_extra_B=6270
+mem_stacks_B=0
+heap_tree=detailed
+n2: 12758530 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12640256 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 12640256 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 12640256 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 12640256 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=60313208
+mem_heap_B=13856258
+mem_heap_extra_B=6806
+mem_stacks_B=0
+heap_tree=detailed
+n2: 13856258 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13737984 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 13737984 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 13737984 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 13737984 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=62761244
+mem_heap_B=14446082
+mem_heap_extra_B=7094
+mem_stacks_B=0
+heap_tree=detailed
+n2: 14446082 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 14327808 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 14327808 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 14327808 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 14327808 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=65249847
+mem_heap_B=15040002
+mem_heap_extra_B=7390
+mem_stacks_B=0
+heap_tree=detailed
+n2: 15040002 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 14921728 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 14921728 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 14921728 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 14921728 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=67859564
+mem_heap_B=15674882
+mem_heap_extra_B=7694
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=71329370
+mem_heap_B=16510466
+mem_heap_extra_B=8102
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16510466 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16392192 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 16392192 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 16392192 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 16392192 0x109E22: main (ED.cpp:100)
+ n0: 118274 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=73398220
+mem_heap_B=17026562
+mem_heap_extra_B=8342
+mem_stacks_B=0
+heap_tree=detailed
+n2: 17026562 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16883712 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 16883712 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 16883712 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 16883712 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=76390264
+mem_heap_B=17747458
+mem_heap_extra_B=8694
+mem_stacks_B=0
+heap_tree=detailed
+n2: 17747458 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17604608 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 17604608 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 17604608 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 17604608 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=79450309
+mem_heap_B=18484738
+mem_heap_extra_B=9054
+mem_stacks_B=0
+heap_tree=detailed
+n2: 18484738 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 18341888 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 18341888 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 18341888 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 18341888 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=82714357
+mem_heap_B=19271170
+mem_heap_extra_B=9438
+mem_stacks_B=0
+heap_tree=detailed
+n2: 19271170 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 19128320 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 19128320 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 19128320 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 19128320 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=86046406
+mem_heap_B=20073986
+mem_heap_extra_B=9830
+mem_stacks_B=0
+heap_tree=detailed
+n2: 20073986 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 19931136 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 19931136 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 19931136 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 19931136 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=87814432
+mem_heap_B=20499970
+mem_heap_extra_B=10038
+mem_stacks_B=0
+heap_tree=detailed
+n2: 20499970 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 20357120 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 20357120 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 20357120 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 20357120 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=91350454
+mem_heap_B=21351938
+mem_heap_extra_B=10454
+mem_stacks_B=0
+heap_tree=detailed
+n2: 21351938 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21209088 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 21209088 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 21209088 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 21209088 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=95090454
+mem_heap_B=22253058
+mem_heap_extra_B=10894
+mem_stacks_B=0
+heap_tree=detailed
+n2: 22253058 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 22110208 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 22110208 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 22110208 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 22110208 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=98939020
+mem_heap_B=23174658
+mem_heap_extra_B=11350
+mem_stacks_B=0
+heap_tree=detailed
+n2: 23174658 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 23031808 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 23031808 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 23031808 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 23031808 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=102978454
+mem_heap_B=24153602
+mem_heap_extra_B=11822
+mem_stacks_B=0
+heap_tree=detailed
+n2: 24153602 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24010752 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 24010752 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 24010752 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 24010752 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=107126454
+mem_heap_B=25153026
+mem_heap_extra_B=12310
+mem_stacks_B=0
+heap_tree=detailed
+n2: 25153026 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25010176 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 25010176 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 25010176 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 25010176 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=111478454
+mem_heap_B=26201602
+mem_heap_extra_B=12822
+mem_stacks_B=0
+heap_tree=detailed
+n2: 26201602 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 26058752 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 26058752 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 26058752 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 26058752 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=114810454
+mem_heap_B=27004418
+mem_heap_extra_B=13214
+mem_stacks_B=0
+heap_tree=detailed
+n2: 27004418 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 26861568 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 26861568 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 26861568 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 26861568 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=119434454
+mem_heap_B=28118530
+mem_heap_extra_B=13758
+mem_stacks_B=0
+heap_tree=detailed
+n2: 28118530 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 27975680 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 27975680 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 27975680 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 27975680 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=124262454
+mem_heap_B=29281794
+mem_heap_extra_B=14326
+mem_stacks_B=0
+heap_tree=detailed
+n2: 29281794 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 29138944 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 29138944 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 29138944 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 29138944 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=126751020
+mem_heap_B=29875714
+mem_heap_extra_B=14622
+mem_stacks_B=0
+heap_tree=detailed
+n2: 29875714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 29732864 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 29732864 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 29732864 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 29732864 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=129294454
+mem_heap_B=30494210
+mem_heap_extra_B=14918
+mem_stacks_B=0
+heap_tree=detailed
+n2: 30494210 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 30351360 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 30351360 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 30351360 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 30351360 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=131878454
+mem_heap_B=31116802
+mem_heap_extra_B=15222
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31116802 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 30973952 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 30973952 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 30973952 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 30973952 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=134503020
+mem_heap_B=31743490
+mem_heap_extra_B=15534
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31743490 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 31600640 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 31600640 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 31600640 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 31600640 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=137182454
+mem_heap_B=32394754
+mem_heap_extra_B=15846
+mem_stacks_B=0
+heap_tree=detailed
+n2: 32394754 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32251904 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 32251904 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 32251904 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 32251904 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=139902454
+mem_heap_B=33050114
+mem_heap_extra_B=16166
+mem_stacks_B=0
+heap_tree=detailed
+n2: 33050114 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32907264 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 32907264 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 32907264 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 32907264 0x109E22: main (ED.cpp:100)
+ n0: 142850 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=144284514
+mem_heap_B=34135554
+mem_heap_extra_B=16678
+mem_stacks_B=0
+heap_tree=detailed
+n2: 34135554 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 33943552 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 33943552 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 33943552 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 33943552 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=147098193
+mem_heap_B=34819586
+mem_heap_extra_B=17006
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=150035398
+mem_heap_B=35515910
+mem_heap_extra_B=17362
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=153027398
+mem_heap_B=36236806
+mem_heap_extra_B=17714
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=156074193
+mem_heap_B=36982274
+mem_heap_extra_B=18062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=159147398
+mem_heap_B=37711366
+mem_heap_extra_B=18434
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=162535948
+mem_heap_B=38538754
+mem_heap_extra_B=18822
+mem_stacks_B=0
+heap_tree=detailed
+n2: 38538754 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 38346752 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 38346752 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 38346752 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 38346752 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=163907398
+mem_heap_B=38858246
+mem_heap_extra_B=18994
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=164167948
+mem_heap_B=38931970
+mem_heap_extra_B=19014
+mem_stacks_B=0
+heap_tree=detailed
+n2: 38931970 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 38739968 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 38739968 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 38739968 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 38739968 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=165799948
+mem_heap_B=39325186
+mem_heap_extra_B=19206
+mem_stacks_B=0
+heap_tree=detailed
+n2: 39325186 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 39133184 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 39133184 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 39133184 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 39133184 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=167472514
+mem_heap_B=39722498
+mem_heap_extra_B=19406
+mem_stacks_B=0
+heap_tree=detailed
+n2: 39722498 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 39530496 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 39530496 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 39530496 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 39530496 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=169131948
+mem_heap_B=40128002
+mem_heap_extra_B=19598
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40128002 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 39936000 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 39936000 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 39936000 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 39936000 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=170831948
+mem_heap_B=40537602
+mem_heap_extra_B=19798
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40537602 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40345600 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 40345600 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 40345600 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 40345600 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=172531948
+mem_heap_B=40947202
+mem_heap_extra_B=19998
+mem_stacks_B=0
+heap_tree=peak
+n2: 40947202 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40755200 0x10A55B: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (new_allocator.h:111)
+  n1: 40755200 0x10A679: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:105)
+   n1: 40755200 0x10999E: ED::OptDistance() (stl_vector.h:954)
+    n0: 40755200 0x109E22: main (ED.cpp:100)
+ n0: 192002 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=514698665
+mem_heap_B=41168417
+mem_heap_extra_B=20111
+mem_stacks_B=0
+heap_tree=empty

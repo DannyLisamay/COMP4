@@ -1,0 +1,10 @@
+4
+2.50e+11
+  -1.5e+11  0.0000e+00  0.0000e+00  0e+00  5.e+31 acorn-1.gif
+  1.5e+11   0.0000e+00  0.0000e+00  3e+3   5.e+3  ninjasquirrel_red.gif
+  1.5e+11  .8e+11       0.0000e+0   8e+3   5.e+3  ninjasquirrel_red.gif
+  1.5e+11  -.8e+11      0.0000e+0   8e+3   5.e+3  ninjasquirrel_red.gif
+ 
+Ninja Squirrels racing to get a corn first..
+
+By: Danny and Dheera
